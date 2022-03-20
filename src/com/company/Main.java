@@ -16,9 +16,7 @@ public class Main {
             }
         } finally {
             inputStream.close();
-        }
-
-        //some comments to compare
+        }       
 
     }
 }
