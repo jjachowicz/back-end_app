@@ -1,1 +1,19 @@
+Projekt będzie aplikacją do zarządzania rezerwacjami hotelowymi.
 
+Harmonorgam prac:
+1. System logowania użytkownika.
+2. System rejestrowania użytkownika.
+3. Walidacja danych użytkownika.
+4. Podłączenie bazy danych do aplikacji.
+5. Dodawanie nowych rezerwacji do bazy danych za pomocą formularza.
+6. Walidacja poprawności przesyłanych danych.
+7. Listowanie rezerwacji z bazy danych.
+8. Listowanie wybranej rezerwacji po id.
+9. Usuwanie istniejących rezerwacji z bazy danych
+10. Modyfikacja rezerwacji.
+11. Wysyłanie maili potwierdzających do użytkowników.
+12. Obsługa błędów.
+13. Edycja danych osobowych użykownika.
+14. Resetowanie hasła użytkownika.
+15. Utworzenie tabel w bazie danych oraz połączeń między nimi.
+16. Zbudowanie wersji produkcyjnej (skrypt uruchamiający + Bundles, JAR lub Docker).
