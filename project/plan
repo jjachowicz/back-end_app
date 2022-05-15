@@ -4,7 +4,7 @@ Harmonorgam prac:
 1. System logowania użytkownika.
 2. System rejestrowania użytkownika.
 3. Walidacja danych użytkownika.
-4. Podłączenie bazy danych do aplikacji.
+4. Podłączenie bazy danych do aplikacji. - tabela użytkownik
 5. Dodawanie nowych rezerwacji do bazy danych za pomocą formularza.
 6. Walidacja poprawności przesyłanych danych.
 7. Listowanie rezerwacji z bazy danych.
@@ -17,3 +17,49 @@ Harmonorgam prac:
 14. Resetowanie hasła użytkownika.
 15. Utworzenie tabel w bazie danych oraz połączeń między nimi.
 16. Zbudowanie wersji produkcyjnej (skrypt uruchamiający + Bundles, JAR lub Docker).
+
+
+
+Lista gości
+- // imię, nazwisko, email, PESEL, nr telefonu
+- dodawanie użytkowników,
+- edycja użytkowników,
+- listowanie użytkowników (paginacja, sortowanie po imieniu i nazwisku a-z z-a)
+
+
+
+
+
+Baza pokojów 
+- numer pokoju, jak duży jest pokój, ceny pokojów, rezerwacja pokoju, 
+- dostępne pokoje 
+- rezerwacje (dla każdego dnia będzie dodana flaga, że pokój jest zarezewowany)
+- listowanie pokojów szuknie pokojów po numerze
+
+
+Wyszukiwani
+ - pokoje
+ - uzytkowni
+ - wyszukiwanie użytkowników
+// obosny taks
+        SELECT *
+        FROM users
+        WHERE first_name` LIKE '%ja%' OR 
+              lanst_name` LIKE '%ja%' OR 
+        nr tel,
+        ...
+        ORDER by first_name`, lanst_name` , ... ; kolumne do sortowania kierunek
+ 
+ 
+
+Relacja pomiędzy pokojem a użytkownikiem - Rezerwacje
+- data rezerwacji - ilość dni = ilośc wpisów
+- dodawanie
+- usuwanie
+- edytować
+
+Raporty
+- wylistować rezerwacje danego użytkownika
+- listować rezerwacje danego pokoju
+- np. najczęściej odwiedzane pokoje/goście
+
