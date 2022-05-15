@@ -34,12 +34,12 @@ Baza pokojów
 - numer pokoju, jak duży jest pokój, ceny pokojów, rezerwacja pokoju, 
 - dostępne pokoje 
 - rezerwacje (dla każdego dnia będzie dodana flaga, że pokój jest zarezewowany)
-- listowanie pokojów szuknie pokojów po numerze
+- listowanie pokojów szukanie pokojów po numerze
 
 
-Wyszukiwani
+Wyszukiwanie
  - pokoje
- - uzytkowni
+ - uzytkownicy
  - wyszukiwanie użytkowników
 // obosny taks
         SELECT *
