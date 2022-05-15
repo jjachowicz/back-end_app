@@ -19,7 +19,7 @@ Harmonorgam prac:
 16. Zbudowanie wersji produkcyjnej (skrypt uruchamiający + Bundles, JAR lub Docker).
 
 
-
+1.
 Lista gości
 - // imię, nazwisko, email, PESEL, nr telefonu
 - dodawanie użytkowników,
@@ -29,14 +29,14 @@ Lista gości
 
 
 
-
+2.
 Baza pokojów 
 - numer pokoju, jak duży jest pokój, ceny pokojów, rezerwacja pokoju, 
 - dostępne pokoje 
 - rezerwacje (dla każdego dnia będzie dodana flaga, że pokój jest zarezewowany)
 - listowanie pokojów szukanie pokojów po numerze
 
-
+3.
 Wyszukiwanie
  - pokoje
  - uzytkownicy
@@ -51,19 +51,21 @@ Wyszukiwanie
         ORDER by first_name`, lanst_name` , ... ; kolumne do sortowania kierunek
  
  
-
+4.
 Relacja pomiędzy pokojem a użytkownikiem - Rezerwacje
 - data rezerwacji - ilość dni = ilośc wpisów
 - dodawanie
 - usuwanie
 - edytować
 
+5.
 Raporty
 - wylistować rezerwacje danego użytkownika
 - listować rezerwacje danego pokoju
 - np. najczęściej odwiedzane pokoje/goście
 
 
- Przesyłanie pomiędzy dwoma taskami aplikacji - wymaganie minimum 2 mikroserwisy komunikujące się ze sobą, np. użytkownicy
- https://www.baeldung.com/rest-template 
+Przesyłanie pomiędzy dwoma taskami aplikacji - wymaganie minimum 2 mikroserwisy komunikujące się ze sobą, np. użytkownicy
+https://www.baeldung.com/rest-template 
 https://www.split.io/blog/spring-boot-microservices/
+Jeden mikroserwis np. użytkownicy a drugi reszta, mają się komunikować.
