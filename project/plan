@@ -63,3 +63,7 @@ Raporty
 - listować rezerwacje danego pokoju
 - np. najczęściej odwiedzane pokoje/goście
 
+
+ Przesyłanie pomiędzy dwoma taskami aplikacji - wymaganie minimum 2 mikroserwisy komunikujące się ze sobą, np. użytkownicy
+ https://www.baeldung.com/rest-template 
+https://www.split.io/blog/spring-boot-microservices/
