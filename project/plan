@@ -69,3 +69,14 @@ Przesyłanie pomiędzy dwoma taskami aplikacji - wymaganie minimum 2 mikroserwis
 https://www.baeldung.com/rest-template 
 https://www.split.io/blog/spring-boot-microservices/
 Jeden mikroserwis np. użytkownicy a drugi reszta, mają się komunikować.
+
+
+zapytania do bazy
+https://dirask.com/posts/Spring-Boot-2-JdbcTemplate-SELECT-query-example-to-MySQL-database-p5gJW1
+https://dirask.com/posts/Spring-Boot-2-CRUD-example-using-JPA-and-MySQL-database-pORVZD
+
+https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc/11.1.1.jre11-preview
+https://stackoverflow.com/questions/52715797/whats-the-driver-class-name-for-sql-server-jdbc
+
+// community server + Heid sql
+https://dev.mysql.com/downloads/
