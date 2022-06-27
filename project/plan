@@ -1,39 +1,24 @@
+LINKI DO REPOZYTORIÓW APLIKACJI:
+- https://github.com/jjachowicz/Hotel_app.git
+- https://github.com/jjachowicz/Login.git
+
+
 Projekt będzie aplikacją do zarządzania rezerwacjami hotelowymi.
 
 Harmonogram prac:
-1. System logowania użytkownika.
-2. System rejestrowania użytkownika.
-3. Walidacja danych użytkownika.
-4. Podłączenie bazy danych do aplikacji. - tabela użytkownik
-5. Dodawanie nowych rezerwacji do bazy danych za pomocą formularza.
-6. Walidacja poprawności przesyłanych danych.
-7. Listowanie rezerwacji z bazy danych.
-8. Listowanie wybranej rezerwacji po id.
-9. Usuwanie istniejących rezerwacji z bazy danych
-10. Modyfikacja rezerwacji.
-11. Wysyłanie maili potwierdzających do użytkowników.
-12. Obsługa błędów.
-13. Edycja danych osobowych użykownika.
-14. Resetowanie hasła użytkownika.
-15. Utworzenie tabel w bazie danych oraz połączeń między nimi.
-16. Zbudowanie wersji produkcyjnej (skrypt uruchamiający + Bundles, JAR lub Docker).
-
 
 1.
 Lista gości
-- // imię, nazwisko, email, PESEL, nr telefonu
+- imię, nazwisko, email, PESEL, nr telefonu
 - dodawanie użytkowników,
 - edycja użytkowników,
 - listowanie użytkowników (paginacja, sortowanie po imieniu i nazwisku a-z z-a)
-
-
-
 
 2.
 Baza pokojów 
 - numer pokoju, jak duży jest pokój, ceny pokojów, rezerwacja pokoju, 
 - dostępne pokoje 
-- rezerwacje (dla każdego dnia będzie dodana flaga, że pokój jest zarezewowany)
+- rezerwacje
 - listowanie pokojów szukanie pokojów po numerze
 
 3.
@@ -41,7 +26,7 @@ Wyszukiwanie
  - pokoje
  - uzytkownicy
  - wyszukiwanie użytkowników
-// obosny taks
+// obosny task
         SELECT *
         FROM users
         WHERE first_name` LIKE '%ja%' OR 
@@ -64,19 +49,3 @@ Raporty
 - listować rezerwacje danego pokoju
 - np. najczęściej odwiedzane pokoje/goście
 
-
-Przesyłanie pomiędzy dwoma taskami aplikacji - wymaganie minimum 2 mikroserwisy komunikujące się ze sobą, np. użytkownicy
-https://www.baeldung.com/rest-template 
-https://www.split.io/blog/spring-boot-microservices/
-Jeden mikroserwis np. użytkownicy a drugi reszta, mają się komunikować.
-
-
-zapytania do bazy
-https://dirask.com/posts/Spring-Boot-2-JdbcTemplate-SELECT-query-example-to-MySQL-database-p5gJW1
-https://dirask.com/posts/Spring-Boot-2-CRUD-example-using-JPA-and-MySQL-database-pORVZD
-
-https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc/11.1.1.jre11-preview
-https://stackoverflow.com/questions/52715797/whats-the-driver-class-name-for-sql-server-jdbc
-
-// community server + Heid sql
-https://dev.mysql.com/downloads/
